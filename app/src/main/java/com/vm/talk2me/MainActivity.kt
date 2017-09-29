@@ -16,13 +16,13 @@ import com.vm.talk2me.api.ApiService
 import com.vm.talk2me.config.Config
 import com.vm.talk2me.model.Message
 import com.vm.talk2me.model.MessageResponse
+import kotlinx.android.synthetic.main.mess_layout.*
 
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.ArrayList
 import java.util.Calendar
 
-import kotlinx.android.synthetic.main.mess_layout.*
 import kotlinx.android.synthetic.main.toolbar_pri.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         currentTheme = Config.getCurrTheme(this)
         setTheme(currentTheme)
+        setContentView(R.layout.activity_main)
 
         setSupportActionBar(toolbar_pri)
         supportActionBar!!.setDisplayShowHomeEnabled(true)
