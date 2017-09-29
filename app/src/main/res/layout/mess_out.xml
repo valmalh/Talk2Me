@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/mess_frame_padding">
+
+    <LinearLayout
+        android:id="@+id/front_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="@dimen/mess_margin"
+        android:layout_marginLeft="@dimen/mess_margin_op"
+        android:layout_marginRight="@dimen/mess_margin"
+        android:layout_marginTop="@dimen/mess_margin"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/mess_out_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/mess_padding">
+
+            <TextView
+                android:id="@+id/tv_mess_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_mess_margin"
+                android:textColor="@color/color_mess"
+                android:textSize="@dimen/mess_text_size"
+                android:typeface="serif"
+                tools:text="This" />
+
+            <TextView
+                android:id="@+id/tv_mess_time_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="@dimen/mess_time_padding"
+                android:paddingRight="@dimen/mess_time_padding"
+                android:textColor="@color/color_mess"
+                android:textSize="@dimen/mess_time_text_size"
+                tools:text="12/12/1212 12:21:21" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_account_circle_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Me"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

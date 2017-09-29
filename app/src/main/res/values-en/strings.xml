@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edt_mess_hint">write something...</string>
+    <string name="start_text">Hi !\nWrite a message to Sim</string>
+    <string name="err_text">error !</string>
+    <string name="item_change_theme">Change theme</string>
+    <string name="item_about">About</string>
+    <string name="app_version">Version : 1.0</string>
+    <string name="about_text">This is a Demo application that uses the Simsimi API.\nApp is written by VAN MANH.</string>
+    <string name="dialog_title_err">Error</string>
+    <string name="dialog_mess_err">No Internet connection!</string>
+    <string name="possitive_btn_dialog_title">Close</string>
+    <string name="negative_btn_dialog_title">Open Setting</string>
+    <string name="toolbar_title_chat">Chat with Simsimi</string>
+    <string name="toolbar_title_about">About</string>
+    <string name="dialog_exit_title">Exit</string>
+    <string name="dialog_exit_mess">Are you sure you want to exit Talk2Me?</string>
+    <string name="dialog_exit_yes">Yes</string>
+    <string name="dialog_exit_no">No</string>
+    <string name="hightlight_change">Change the appearance of the application</string>
+    <string name="hightlight_about">Information about the application</string>
+    <string name="hightlight_exit">Exit the application</string>
+    <string name="dialog_select_color_title">Select theme</string>
+</resources>

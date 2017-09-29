@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:bottomRightRadius="@dimen/mess_corner_radius"
+        android:topLeftRadius="@dimen/mess_corner_radius"
+        android:topRightRadius="@dimen/mess_corner_radius" />
+    <solid android:color="@color/color_mess_in" />
+</shape>

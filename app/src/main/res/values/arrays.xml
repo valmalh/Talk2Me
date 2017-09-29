@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_main_text">
+        <item>@string/item_change_theme</item>
+        <item>@string/item_about</item>
+        <item>@string/dialog_exit_title</item>
+    </string-array>
+    <array name="menu_main_icon">
+        <item>@drawable/ic_color_lens_24dp</item>
+        <item>@drawable/ic_info_outline_24dp</item>
+        <item>@drawable/ic_exit_to_app_24dp</item>
+    </array>
+    <string-array name="menu_hightlighted_text">
+        <item>@string/hightlight_change</item>
+        <item>@string/hightlight_about</item>
+        <item>@string/hightlight_exit</item>
+    </string-array>
+</resources>

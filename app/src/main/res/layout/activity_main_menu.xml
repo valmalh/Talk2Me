@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vm.talk2me.MainMenuActivity">
+
+    <include layout="@layout/toolbar_main_menu" />
+
+    <com.skyfishjy.library.RippleBackground
+        android:id="@+id/ripple_bg_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="?attr/colorAccent"
+        app:rb_duration="5000"
+        app:rb_radius="45dp"
+        app:rb_rippleAmount="10"
+        app:rb_scale="5"
+        app:rb_type="fillRipple" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_start_chat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/circle_bg"
+        android:scaleType="center"
+        android:src="@drawable/icon_mesage_menu" />
+
+</FrameLayout>

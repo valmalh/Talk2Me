@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#00c853</color>
+    <color name="colorPrimaryDark">#009624</color>
+    <color name="colorAccent">#5efc82</color>
+    <color name="color_mess">#ffffff</color>
+    <color name="color_mess_in">#aaaaaa</color>
+    <color name="color_panel">#ffffff</color>
+    <color name="color_toolbar_pri">#ffffff</color>
+    <color name="colorPrimary0">#7cb342</color>
+    <color name="colorPrimaryDark0">#4b830d</color>
+    <color name="colorAccent0">#ff6f00</color>
+    <color name="colorPrimary1">#9c27b0</color>
+    <color name="colorPrimaryDark1">#6a0080</color>
+    <color name="colorAccent1">#d05ce3</color>
+    <color name="colorPrimary2">#f50057</color>
+    <color name="colorPrimaryDark2">#bb002f</color>
+    <color name="colorAccent2">#ff5983</color>
+    <color name="colorPrimary3">#1976d2</color>
+    <color name="colorPrimaryDark3">#004ba0</color>
+    <color name="colorAccent3">#63a4ff</color>
+    <color name="colorPrimary4">#ff6f00</color>
+    <color name="colorPrimaryDark4">#c43e00</color>
+    <color name="colorAccent4">#ffa040</color>
+    <color name="colorPrimary5">#607d8b</color>
+    <color name="colorPrimaryDark5">#34515e</color>
+    <color name="colorAccent5">#8eacbb</color>
 </resources>

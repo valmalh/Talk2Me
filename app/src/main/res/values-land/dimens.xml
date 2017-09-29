@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mess_frame_padding">50dp</dimen>
+    <dimen name="mess_margin_op">150dp</dimen>
+    <dimen name="edt_mess_margin_left">70dp</dimen>
+</resources>

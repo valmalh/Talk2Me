@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Talk2Me</string>
+    <string name="edt_mess_hint">viết gì đó...</string>
+    <string name="start_text">Xin chào !\nHãy viết tin nhắn cho Sim</string>
+    <string name="lang">vn</string>
+    <string name="err_text">Đã có lỗi xảy ra !</string>
+    <string name="api_key">3b122b47-2965-4314-8fc6-7fc9dd8efb90</string>
+    <string name="item_change_theme">Thay đổi Giao diện</string>
+    <string name="item_about">Thông tin</string>
+    <string name="app_version">Phiên bản : 1.0</string>
+    <string name="about_text">Đây là ứng dụng Demo sử dụng Simsimi API.\nApp được viết bởi VAN MANH.</string>
+    <string name="dialog_title_err">Lỗi</string>
+    <string name="dialog_mess_err">Không có kết nối Internet !</string>
+    <string name="possitive_btn_dialog_title">Đóng App</string>
+    <string name="negative_btn_dialog_title">Mở Cài đặt</string>
+    <string name="toolbar_title_chat">Chat với Simsimi</string>
+    <string name="toolbar_title_about">Thông tin</string>
+    <string name="dialog_exit_title">Thoát</string>
+    <string name="dialog_exit_mess">Bạn có muốn đóng ứng dụng không?</string>
+    <string name="dialog_exit_yes">Có</string>
+    <string name="dialog_exit_no">Không</string>
+    <string name="hightlight_change">Thay đổi giao diện của ứng dụng</string>
+    <string name="hightlight_about">Thông tin về ứng dụng</string>
+    <string name="hightlight_exit">Thoát khỏi ứng dụng</string>
+    <string name="dialog_select_color_title">Chọn giao diện</string>
 </resources>
