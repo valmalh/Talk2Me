@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         recycler_view!!.layoutManager = manager
         recycler_view!!.adapter = adapter
         recycler_view!!.scrollToPosition(messages!!.size - 1)
-        service = ApiClient.client.create(ApiService::class.java)
+        service = ApiClient.client?.create(ApiService::class.java)
     }
 
     fun send() {

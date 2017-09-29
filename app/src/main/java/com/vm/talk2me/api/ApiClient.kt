@@ -8,10 +8,10 @@ import retrofit2.converter.gson.GsonConverterFactory
  */
 
 object ApiClient {
-    private lateinit var retrofit: Retrofit
+    private var retrofit: Retrofit? = null
     private val BASE_URL = "http://sandbox.api.simsimi.com/"
 
-    val client: Retrofit
+    val client: Retrofit?
         get() {
             if (retrofit == null) {
                 retrofit = Retrofit.Builder()

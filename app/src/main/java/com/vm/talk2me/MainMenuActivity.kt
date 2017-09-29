@@ -93,6 +93,7 @@ class MainMenuActivity : AppCompatActivity() {
                         //recreate();
                     }
             boom_menu_btn!!.addBuilder(builder)
+            boom_menu_btn.setOrientationAdaptable(true)
         }
     }
 
